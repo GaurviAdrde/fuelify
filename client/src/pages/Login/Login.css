@@ -1,0 +1,88 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1B2A;
+    min-height: 100vh;
+    font-family: 'Reem Kufi Fun', sans-serif;
+  }
+  
+  .login-card {
+    background-color: #1B263B;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .login-title {
+    font-size: 28px;
+    color: #E0E1DD;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    color: #E0E1DD;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: #2A3D55;
+    border: 1px solid #3B4A63;
+    border-radius: 6px;
+    color: #E0E1DD;
+    font-size: 16px;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #00ffaa;
+  }
+  
+  .error-message {
+    color: #FF4D5A;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #E63946;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #ff4d5a;
+  }
+  
+  .signup-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #E0E1DD;
+  }
+  
+  .signup-link a {
+    color: #E63946;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  

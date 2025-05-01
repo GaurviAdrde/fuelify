@@ -1,6 +1,7 @@
 // src/pages/Landing/Home.js
 import React from 'react';
 import './Home.css';
+import heroImage from '../../assets/fuelify3a.png';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <div className="hero-content">
           <h1 className="title">Fuelify</h1>
           <p className="tagline">Your Reliable On-Road Assistance Partner</p>
+          <img src={heroImage} alt="Fuelify Hero" className="hero-image" />
           <a href="/user" className="cta-button">Get Started</a>
         </div>
       </header>
@@ -30,6 +32,17 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className="ratings-section">
+  <h2>What Our Users Say</h2>
+  <div className="rating-card">
+    <p>"Super quick and reliable service!"</p>
+    <div className="stars">⭐⭐⭐⭐⭐</div>
+    <p>- Ramesh, Delhi</p>
+  </div>
+  {/* Add more if needed */}
+</section>
+
     </div>
   );
 };

@@ -1,0 +1,54 @@
+.manager-dashboard {
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    background-color: #0D1B2A;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .manager-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .manager-header h1 {
+    font-size: 42px;
+    color: #E63946;
+    margin-bottom: 10px;
+  }
+  
+  .manager-panels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .manager-card {
+    background-color: #1B263B;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 280px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .manager-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .manager-icon {
+    font-size: 42px;
+    color: #00ffaa;
+    margin-bottom: 1rem;
+  }
+  
+  .manager-card h3 {
+    color: #00ffaa;
+    margin-bottom: 0.5rem;
+  }
+  
+  .manager-card p {
+    color: #E0E1DD;
+  }
+  
